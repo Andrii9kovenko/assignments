@@ -1,0 +1,41 @@
+## Папки, що генеруються в процесі компіляції
+[Bb]in/
+[Oo]bj/
+
+## Файли, що генеруються Visual Studio та іншими IDE
+*.user
+*.suo
+*.sln.docstates
+*.vspscc
+*.vssscc
+.vs/
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+
+## Папки та файли, пов'язані з тестуванням
+[Tt]est[Rr]esult*/
+*.trx
+
+## Специфічні файли збірки та пакетів
+*.nupkg
+*.snk
+*.pubxml
+*.userprefs
+
+# ІГНОРУВАННЯ ДЛЯ VISUAL STUDIO CODE
+
+## Папка з налаштуваннями робочого простору VSC
+.vscode/
+
+# ІГНОРУВАННЯ СИСТЕМНИХ ФАЙЛІВ
+
+## Файли операційної системи
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+## Файли журналу (лог-файли)
+*.log
