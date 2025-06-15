@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivideByZeroException", "Di
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorUsingSwitch", "CalculatorUsingSwitch\CalculatorUsingSwitch.csproj", "{5BE4381F-B1DC-496A-9EED-2487BEEFE4B7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncorrecFormatNumber", "IncorrecFormatNumber\IncorrecFormatNumber.csproj", "{32A06D9C-53F5-4A94-8DB7-48E2D0AADA99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,18 @@ Global
 		{5BE4381F-B1DC-496A-9EED-2487BEEFE4B7}.Release|x64.Build.0 = Release|Any CPU
 		{5BE4381F-B1DC-496A-9EED-2487BEEFE4B7}.Release|x86.ActiveCfg = Release|Any CPU
 		{5BE4381F-B1DC-496A-9EED-2487BEEFE4B7}.Release|x86.Build.0 = Release|Any CPU
+		{32A06D9C-53F5-4A94-8DB7-48E2D0AADA99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32A06D9C-53F5-4A94-8DB7-48E2D0AADA99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32A06D9C-53F5-4A94-8DB7-48E2D0AADA99}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{32A06D9C-53F5-4A94-8DB7-48E2D0AADA99}.Debug|x64.Build.0 = Debug|Any CPU
+		{32A06D9C-53F5-4A94-8DB7-48E2D0AADA99}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{32A06D9C-53F5-4A94-8DB7-48E2D0AADA99}.Debug|x86.Build.0 = Debug|Any CPU
+		{32A06D9C-53F5-4A94-8DB7-48E2D0AADA99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32A06D9C-53F5-4A94-8DB7-48E2D0AADA99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32A06D9C-53F5-4A94-8DB7-48E2D0AADA99}.Release|x64.ActiveCfg = Release|Any CPU
+		{32A06D9C-53F5-4A94-8DB7-48E2D0AADA99}.Release|x64.Build.0 = Release|Any CPU
+		{32A06D9C-53F5-4A94-8DB7-48E2D0AADA99}.Release|x86.ActiveCfg = Release|Any CPU
+		{32A06D9C-53F5-4A94-8DB7-48E2D0AADA99}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
