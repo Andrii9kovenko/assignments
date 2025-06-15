@@ -5,11 +5,9 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaysOfTheWeek", "DaysOfTheWeek\DaysOfTheWeek.csproj", "{55E38FBF-F613-4340-9251-844C97019E7F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CalculatorUsingSwitch", "CalculatorUsingSwitch", "{B437A473-2FC1-FFE1-1C2B-00CC79D6C6F8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorUsingSwitch", "CalculatorUsingSwitch\CalculatorUsingSwitch\CalculatorUsingSwitch.csproj", "{FA8B7CEE-01C0-4393-A425-3AAFE502E616}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DivideByZeroException", "DivideByZeroException\DivideByZeroException.csproj", "{542CD8D0-3E21-4830-8745-81E343AE0ED2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorUsingSwitch", "CalculatorUsingSwitch\CalculatorUsingSwitch.csproj", "{5BE4381F-B1DC-496A-9EED-2487BEEFE4B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,18 +31,6 @@ Global
 		{55E38FBF-F613-4340-9251-844C97019E7F}.Release|x64.Build.0 = Release|Any CPU
 		{55E38FBF-F613-4340-9251-844C97019E7F}.Release|x86.ActiveCfg = Release|Any CPU
 		{55E38FBF-F613-4340-9251-844C97019E7F}.Release|x86.Build.0 = Release|Any CPU
-		{FA8B7CEE-01C0-4393-A425-3AAFE502E616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FA8B7CEE-01C0-4393-A425-3AAFE502E616}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FA8B7CEE-01C0-4393-A425-3AAFE502E616}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{FA8B7CEE-01C0-4393-A425-3AAFE502E616}.Debug|x64.Build.0 = Debug|Any CPU
-		{FA8B7CEE-01C0-4393-A425-3AAFE502E616}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{FA8B7CEE-01C0-4393-A425-3AAFE502E616}.Debug|x86.Build.0 = Debug|Any CPU
-		{FA8B7CEE-01C0-4393-A425-3AAFE502E616}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FA8B7CEE-01C0-4393-A425-3AAFE502E616}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FA8B7CEE-01C0-4393-A425-3AAFE502E616}.Release|x64.ActiveCfg = Release|Any CPU
-		{FA8B7CEE-01C0-4393-A425-3AAFE502E616}.Release|x64.Build.0 = Release|Any CPU
-		{FA8B7CEE-01C0-4393-A425-3AAFE502E616}.Release|x86.ActiveCfg = Release|Any CPU
-		{FA8B7CEE-01C0-4393-A425-3AAFE502E616}.Release|x86.Build.0 = Release|Any CPU
 		{542CD8D0-3E21-4830-8745-81E343AE0ED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{542CD8D0-3E21-4830-8745-81E343AE0ED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{542CD8D0-3E21-4830-8745-81E343AE0ED2}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -57,11 +43,20 @@ Global
 		{542CD8D0-3E21-4830-8745-81E343AE0ED2}.Release|x64.Build.0 = Release|Any CPU
 		{542CD8D0-3E21-4830-8745-81E343AE0ED2}.Release|x86.ActiveCfg = Release|Any CPU
 		{542CD8D0-3E21-4830-8745-81E343AE0ED2}.Release|x86.Build.0 = Release|Any CPU
+		{5BE4381F-B1DC-496A-9EED-2487BEEFE4B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BE4381F-B1DC-496A-9EED-2487BEEFE4B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BE4381F-B1DC-496A-9EED-2487BEEFE4B7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5BE4381F-B1DC-496A-9EED-2487BEEFE4B7}.Debug|x64.Build.0 = Debug|Any CPU
+		{5BE4381F-B1DC-496A-9EED-2487BEEFE4B7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5BE4381F-B1DC-496A-9EED-2487BEEFE4B7}.Debug|x86.Build.0 = Debug|Any CPU
+		{5BE4381F-B1DC-496A-9EED-2487BEEFE4B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BE4381F-B1DC-496A-9EED-2487BEEFE4B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BE4381F-B1DC-496A-9EED-2487BEEFE4B7}.Release|x64.ActiveCfg = Release|Any CPU
+		{5BE4381F-B1DC-496A-9EED-2487BEEFE4B7}.Release|x64.Build.0 = Release|Any CPU
+		{5BE4381F-B1DC-496A-9EED-2487BEEFE4B7}.Release|x86.ActiveCfg = Release|Any CPU
+		{5BE4381F-B1DC-496A-9EED-2487BEEFE4B7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{FA8B7CEE-01C0-4393-A425-3AAFE502E616} = {B437A473-2FC1-FFE1-1C2B-00CC79D6C6F8}
 	EndGlobalSection
 EndGlobal
