@@ -4,17 +4,17 @@
 */
 
 Console.WriteLine("Введить число для множення:");
-string input = Console.ReadLine();
-
-if (!int.TryParse(input, out int numberInput))
+//string input = Console.ReadLine();
+//if (!int.TryParse(input, out int numberInput))
+//скоротив кількість строк
+if (!int.TryParse(Console.ReadLine(), out int numberInput))
 {
     Console.WriteLine("Необхідно ввести ціле число");
 }
-
 else
 {
     Console.WriteLine($"Таблиця множення для числа {numberInput}: ");
-    
+
     for (int i = 1; i <= 10; i++)
-    Console.WriteLine($"{numberInput} * {i} = " + i * numberInput);
+        Console.WriteLine($"{numberInput} * {i} = " + i * numberInput);
 }
