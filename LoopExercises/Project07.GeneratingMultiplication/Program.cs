@@ -14,7 +14,7 @@ if (!int.TryParse(input, out int numberInput))
 else
 {
     Console.WriteLine($"Таблиця множення для числа {numberInput}: ");
+    
     for (int i = 1; i <= 10; i++)
-
     Console.WriteLine($"{numberInput} * {i} = " + i * numberInput);
 }
