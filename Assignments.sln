@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project01.AverageSalary", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project07.GeneratingMultiplication", "LoopExercises\Project07.GeneratingMultiplication\Project07.GeneratingMultiplication.csproj", "{1E648AEC-C05F-4AD7-A47D-25EC394BB6AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project03.GeneratingPrimeNumbers", "LoopExercises\Project03.GeneratingPrimeNumbers\Project03.GeneratingPrimeNumbers.csproj", "{FC78E78D-1008-443A-B273-790020123409}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -113,6 +115,18 @@ Global
 		{1E648AEC-C05F-4AD7-A47D-25EC394BB6AF}.Release|x64.Build.0 = Release|Any CPU
 		{1E648AEC-C05F-4AD7-A47D-25EC394BB6AF}.Release|x86.ActiveCfg = Release|Any CPU
 		{1E648AEC-C05F-4AD7-A47D-25EC394BB6AF}.Release|x86.Build.0 = Release|Any CPU
+		{FC78E78D-1008-443A-B273-790020123409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC78E78D-1008-443A-B273-790020123409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC78E78D-1008-443A-B273-790020123409}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FC78E78D-1008-443A-B273-790020123409}.Debug|x64.Build.0 = Debug|Any CPU
+		{FC78E78D-1008-443A-B273-790020123409}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FC78E78D-1008-443A-B273-790020123409}.Debug|x86.Build.0 = Debug|Any CPU
+		{FC78E78D-1008-443A-B273-790020123409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC78E78D-1008-443A-B273-790020123409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC78E78D-1008-443A-B273-790020123409}.Release|x64.ActiveCfg = Release|Any CPU
+		{FC78E78D-1008-443A-B273-790020123409}.Release|x64.Build.0 = Release|Any CPU
+		{FC78E78D-1008-443A-B273-790020123409}.Release|x86.ActiveCfg = Release|Any CPU
+		{FC78E78D-1008-443A-B273-790020123409}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -121,5 +135,6 @@ Global
 		{0B9C9DA0-C52A-4EC8-BF78-20B353A80F53} = {70FA13DF-E447-F7A8-5EF0-B063F5B374B5}
 		{FB2D1FDA-9135-4145-BBF6-0704F4E64D4D} = {70FA13DF-E447-F7A8-5EF0-B063F5B374B5}
 		{1E648AEC-C05F-4AD7-A47D-25EC394BB6AF} = {70FA13DF-E447-F7A8-5EF0-B063F5B374B5}
+		{FC78E78D-1008-443A-B273-790020123409} = {70FA13DF-E447-F7A8-5EF0-B063F5B374B5}
 	EndGlobalSection
 EndGlobal
