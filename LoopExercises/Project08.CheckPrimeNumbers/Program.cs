@@ -22,13 +22,11 @@ if ( inputNumber >= 2 )
     }
 
 }
-
 if (isPrime)
 {
-   Console.WriteLine("Це просте число"); 
+   Console.WriteLine("Число вважається простим"); 
 }
-
 else 
 {
-   Console.WriteLine("Це не просте число"); 
+   Console.WriteLine("Задане число не вважається простим"); 
 }
