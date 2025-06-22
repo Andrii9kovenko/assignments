@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project08.CheckPrimeNumbers
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project06.Wage", "LoopExercises\Project06.Wage\Project06.Wage.csproj", "{3F1BDD3B-AEB6-4162-A1E9-406CEFE78350}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project04.PasswordVerification", "LoopExercises\Project06.PasswordVerification\Project04.PasswordVerification.csproj", "{BE4FDD2C-AF23-4B0F-874F-0EAD237F2A8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -155,6 +157,18 @@ Global
 		{3F1BDD3B-AEB6-4162-A1E9-406CEFE78350}.Release|x64.Build.0 = Release|Any CPU
 		{3F1BDD3B-AEB6-4162-A1E9-406CEFE78350}.Release|x86.ActiveCfg = Release|Any CPU
 		{3F1BDD3B-AEB6-4162-A1E9-406CEFE78350}.Release|x86.Build.0 = Release|Any CPU
+		{BE4FDD2C-AF23-4B0F-874F-0EAD237F2A8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE4FDD2C-AF23-4B0F-874F-0EAD237F2A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE4FDD2C-AF23-4B0F-874F-0EAD237F2A8A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BE4FDD2C-AF23-4B0F-874F-0EAD237F2A8A}.Debug|x64.Build.0 = Debug|Any CPU
+		{BE4FDD2C-AF23-4B0F-874F-0EAD237F2A8A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BE4FDD2C-AF23-4B0F-874F-0EAD237F2A8A}.Debug|x86.Build.0 = Debug|Any CPU
+		{BE4FDD2C-AF23-4B0F-874F-0EAD237F2A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE4FDD2C-AF23-4B0F-874F-0EAD237F2A8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE4FDD2C-AF23-4B0F-874F-0EAD237F2A8A}.Release|x64.ActiveCfg = Release|Any CPU
+		{BE4FDD2C-AF23-4B0F-874F-0EAD237F2A8A}.Release|x64.Build.0 = Release|Any CPU
+		{BE4FDD2C-AF23-4B0F-874F-0EAD237F2A8A}.Release|x86.ActiveCfg = Release|Any CPU
+		{BE4FDD2C-AF23-4B0F-874F-0EAD237F2A8A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -166,5 +180,6 @@ Global
 		{FC78E78D-1008-443A-B273-790020123409} = {70FA13DF-E447-F7A8-5EF0-B063F5B374B5}
 		{E342DEA3-5E11-43A6-8364-BB6D24A59DB6} = {70FA13DF-E447-F7A8-5EF0-B063F5B374B5}
 		{3F1BDD3B-AEB6-4162-A1E9-406CEFE78350} = {70FA13DF-E447-F7A8-5EF0-B063F5B374B5}
+		{BE4FDD2C-AF23-4B0F-874F-0EAD237F2A8A} = {70FA13DF-E447-F7A8-5EF0-B063F5B374B5}
 	EndGlobalSection
 EndGlobal
