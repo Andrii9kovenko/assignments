@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project01.CreateArray", "Ar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project02.CheckArraySum", "ArrayExercises\Project02.CheckArraySum\Project02.CheckArraySum.csproj", "{22EEBA37-1779-4E1D-A957-4BC6D2C2BB43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project03.ArrayResultsOfTheMultiplication", "ArrayExercises\Project03.ArrayResultsOfTheMultiplication\Project03.ArrayResultsOfTheMultiplication.csproj", "{7D5BCCC0-205D-4A12-BD27-E3E145F9974C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +215,18 @@ Global
 		{22EEBA37-1779-4E1D-A957-4BC6D2C2BB43}.Release|x64.Build.0 = Release|Any CPU
 		{22EEBA37-1779-4E1D-A957-4BC6D2C2BB43}.Release|x86.ActiveCfg = Release|Any CPU
 		{22EEBA37-1779-4E1D-A957-4BC6D2C2BB43}.Release|x86.Build.0 = Release|Any CPU
+		{7D5BCCC0-205D-4A12-BD27-E3E145F9974C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D5BCCC0-205D-4A12-BD27-E3E145F9974C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D5BCCC0-205D-4A12-BD27-E3E145F9974C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7D5BCCC0-205D-4A12-BD27-E3E145F9974C}.Debug|x64.Build.0 = Debug|Any CPU
+		{7D5BCCC0-205D-4A12-BD27-E3E145F9974C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7D5BCCC0-205D-4A12-BD27-E3E145F9974C}.Debug|x86.Build.0 = Debug|Any CPU
+		{7D5BCCC0-205D-4A12-BD27-E3E145F9974C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D5BCCC0-205D-4A12-BD27-E3E145F9974C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D5BCCC0-205D-4A12-BD27-E3E145F9974C}.Release|x64.ActiveCfg = Release|Any CPU
+		{7D5BCCC0-205D-4A12-BD27-E3E145F9974C}.Release|x64.Build.0 = Release|Any CPU
+		{7D5BCCC0-205D-4A12-BD27-E3E145F9974C}.Release|x86.ActiveCfg = Release|Any CPU
+		{7D5BCCC0-205D-4A12-BD27-E3E145F9974C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -228,5 +242,6 @@ Global
 		{4C3A5039-60A0-4299-B28F-23FD97C21975} = {70FA13DF-E447-F7A8-5EF0-B063F5B374B5}
 		{2F5F0919-3188-4EB1-B090-2BE6C5A597AB} = {13046698-691B-53EA-2C3E-672221A0CE4F}
 		{22EEBA37-1779-4E1D-A957-4BC6D2C2BB43} = {13046698-691B-53EA-2C3E-672221A0CE4F}
+		{7D5BCCC0-205D-4A12-BD27-E3E145F9974C} = {13046698-691B-53EA-2C3E-672221A0CE4F}
 	EndGlobalSection
 EndGlobal
