@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project03.ArrayResultsOfThe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project04.ArrayMaxMinValue", "ArrayExercises\Project04.ArrayMaxMinValue\Project04.ArrayMaxMinValue.csproj", "{F13D7720-8AAB-4641-A798-F7D08F569A36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project05.СalculateWhichDay", "ArrayExercises\Project05.СalculateWhichDay\Project05.СalculateWhichDay.csproj", "{01EAB856-14B3-4A7D-8761-C7971E647FA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -241,6 +243,18 @@ Global
 		{F13D7720-8AAB-4641-A798-F7D08F569A36}.Release|x64.Build.0 = Release|Any CPU
 		{F13D7720-8AAB-4641-A798-F7D08F569A36}.Release|x86.ActiveCfg = Release|Any CPU
 		{F13D7720-8AAB-4641-A798-F7D08F569A36}.Release|x86.Build.0 = Release|Any CPU
+		{01EAB856-14B3-4A7D-8761-C7971E647FA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01EAB856-14B3-4A7D-8761-C7971E647FA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01EAB856-14B3-4A7D-8761-C7971E647FA2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{01EAB856-14B3-4A7D-8761-C7971E647FA2}.Debug|x64.Build.0 = Debug|Any CPU
+		{01EAB856-14B3-4A7D-8761-C7971E647FA2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{01EAB856-14B3-4A7D-8761-C7971E647FA2}.Debug|x86.Build.0 = Debug|Any CPU
+		{01EAB856-14B3-4A7D-8761-C7971E647FA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01EAB856-14B3-4A7D-8761-C7971E647FA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01EAB856-14B3-4A7D-8761-C7971E647FA2}.Release|x64.ActiveCfg = Release|Any CPU
+		{01EAB856-14B3-4A7D-8761-C7971E647FA2}.Release|x64.Build.0 = Release|Any CPU
+		{01EAB856-14B3-4A7D-8761-C7971E647FA2}.Release|x86.ActiveCfg = Release|Any CPU
+		{01EAB856-14B3-4A7D-8761-C7971E647FA2}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -258,5 +272,6 @@ Global
 		{22EEBA37-1779-4E1D-A957-4BC6D2C2BB43} = {13046698-691B-53EA-2C3E-672221A0CE4F}
 		{7D5BCCC0-205D-4A12-BD27-E3E145F9974C} = {13046698-691B-53EA-2C3E-672221A0CE4F}
 		{F13D7720-8AAB-4641-A798-F7D08F569A36} = {13046698-691B-53EA-2C3E-672221A0CE4F}
+		{01EAB856-14B3-4A7D-8761-C7971E647FA2} = {13046698-691B-53EA-2C3E-672221A0CE4F}
 	EndGlobalSection
 EndGlobal
