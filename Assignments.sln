@@ -33,7 +33,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArrayExercises", "ArrayExer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project01.CreateArray", "ArrayExercises\Project01.CreateArray\Project01.CreateArray.csproj", "{2F5F0919-3188-4EB1-B090-2BE6C5A597AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project02", "ArrayExercises\Project02\Project02.csproj", "{A3212E41-1F5F-4631-A677-60C528A0A6E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project02.CheckArraySum", "ArrayExercises\Project02\Project02.CheckArraySum.csproj", "{A3212E41-1F5F-4631-A677-60C528A0A6E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
