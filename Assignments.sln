@@ -62,6 +62,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project02.Sorting", "ArrayE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project04.SumElementsDiagonal", "ArrayExercisesPatTwo\Project04.SumElementsDiagonal\Project04.SumElementsDiagonal.csproj", "{9FB8436E-5B9A-4C39-816B-D7CC1E9A4D8C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project03.TextReport", "StringExercises\Project03.TextReport\Project03.TextReport.csproj", "{247E4D31-3CA1-4544-8500-CD9EB837F523}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -360,6 +362,18 @@ Global
 		{9FB8436E-5B9A-4C39-816B-D7CC1E9A4D8C}.Release|x64.Build.0 = Release|Any CPU
 		{9FB8436E-5B9A-4C39-816B-D7CC1E9A4D8C}.Release|x86.ActiveCfg = Release|Any CPU
 		{9FB8436E-5B9A-4C39-816B-D7CC1E9A4D8C}.Release|x86.Build.0 = Release|Any CPU
+		{247E4D31-3CA1-4544-8500-CD9EB837F523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{247E4D31-3CA1-4544-8500-CD9EB837F523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{247E4D31-3CA1-4544-8500-CD9EB837F523}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{247E4D31-3CA1-4544-8500-CD9EB837F523}.Debug|x64.Build.0 = Debug|Any CPU
+		{247E4D31-3CA1-4544-8500-CD9EB837F523}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{247E4D31-3CA1-4544-8500-CD9EB837F523}.Debug|x86.Build.0 = Debug|Any CPU
+		{247E4D31-3CA1-4544-8500-CD9EB837F523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{247E4D31-3CA1-4544-8500-CD9EB837F523}.Release|Any CPU.Build.0 = Release|Any CPU
+		{247E4D31-3CA1-4544-8500-CD9EB837F523}.Release|x64.ActiveCfg = Release|Any CPU
+		{247E4D31-3CA1-4544-8500-CD9EB837F523}.Release|x64.Build.0 = Release|Any CPU
+		{247E4D31-3CA1-4544-8500-CD9EB837F523}.Release|x86.ActiveCfg = Release|Any CPU
+		{247E4D31-3CA1-4544-8500-CD9EB837F523}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -385,5 +399,6 @@ Global
 		{CC8ABE55-9887-481C-A7A4-AB9B4CFDCA6F} = {106DBD75-60D8-288E-21FB-A0DE1B945471}
 		{01DE4BB2-DFCA-4EA9-ACEF-F8FC26451C46} = {106DBD75-60D8-288E-21FB-A0DE1B945471}
 		{9FB8436E-5B9A-4C39-816B-D7CC1E9A4D8C} = {106DBD75-60D8-288E-21FB-A0DE1B945471}
+		{247E4D31-3CA1-4544-8500-CD9EB837F523} = {787F0AE7-F039-BD07-CD28-E4C8FD89F7AC}
 	EndGlobalSection
 EndGlobal
