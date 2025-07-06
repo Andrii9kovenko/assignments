@@ -4,7 +4,6 @@
 //   Користувач у циклi буде вводити подiї, треба додавати їх у загальний список подiй типу StringBuilder .
 
 
-using System.Runtime.CompilerServices;
 using System.Text;
 Console.Clear();
 
@@ -27,7 +26,7 @@ do
     }
 
     report.AppendLine($"\t - {inputAction}.");
-    
+
 } while (!string.IsNullOrWhiteSpace(inputAction));
 report.AppendLine();
 report.AppendLine($"Дата формування звіту: {currentDate}");
