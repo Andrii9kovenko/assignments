@@ -53,7 +53,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArrayExercisesPatTwo", "Arr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project01.FindSecondMax", "ArrayExercisesPatTwo\Project01.FindSecondMax\Project01.FindSecondMax.csproj", "{F39866E6-3BE3-4547-9127-71652232A21B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "roject02.Sorting", "ArrayExercisesPatTwo\roject02.Sorting\roject02.Sorting.csproj", "{72075971-0E75-428C-B0D0-6B5F4C68DD98}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project02.Sorting", "ArrayExercisesPatTwo\roject02.Sorting\Project02.Sorting.csproj", "{72075971-0E75-428C-B0D0-6B5F4C68DD98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
