@@ -4,27 +4,33 @@
 //   Користувач у циклi буде вводити подiї, треба додавати їх у загальний список подiй типу StringBuilder .
 
 
+using System.Runtime.CompilerServices;
 using System.Text;
 Console.Clear();
 
 StringBuilder report = new StringBuilder();
 report.AppendLine("Перелік подій:");
 report.AppendLine();
+string inputAction;
+String currentDate = DateTime.Now.ToString("yyyy.MM.dd");
+Console.WriteLine("Формавання звіту ...");
+Console.WriteLine("Для формавання звіту необхідно додати подію (для завершення натисніть Enter):");
 
-while (true)
+do
 {
-    Console.WriteLine("Для формавання звіту необхідно додати подію (для завершення натисніть Enter):");
-    string inputAction = Console.ReadLine();
+
+    inputAction = Console.ReadLine();
 
     if (string.IsNullOrWhiteSpace(inputAction))
     {
         break;
     }
 
-    report.AppendLine("\t - " + inputAction);
-}
+    report.AppendLine($"\t - {inputAction}.");
+    
+} while (!string.IsNullOrWhiteSpace(inputAction));
 report.AppendLine();
-report.AppendLine("Дата формування звіту: " + DateTime.Now.ToString("yyyy.MM.dd"));
+report.AppendLine($"Дата формування звіту: {currentDate}");
 
 Console.WriteLine("\t \t \t \t  Звіт");
 Console.WriteLine(report.ToString());
