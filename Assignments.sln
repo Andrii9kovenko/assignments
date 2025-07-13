@@ -64,6 +64,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project04.SumElementsDiagon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project03.TextReport", "StringExercises\Project03.TextReport\Project03.TextReport.csproj", "{247E4D31-3CA1-4544-8500-CD9EB837F523}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RecursiveFunctionForFibonacci", "RecursiveFunctionForFibonacci", "{CEEDB9FF-A151-87D7-8F55-BB3F3E7A5D12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project01.RecursiveFibonacci", "RecursiveFunctionForFibonacci\Project01.RecursiveFibonacci\Project01.RecursiveFibonacci.csproj", "{C42CFF25-8B5F-40A5-921C-0D94828107EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -374,6 +378,18 @@ Global
 		{247E4D31-3CA1-4544-8500-CD9EB837F523}.Release|x64.Build.0 = Release|Any CPU
 		{247E4D31-3CA1-4544-8500-CD9EB837F523}.Release|x86.ActiveCfg = Release|Any CPU
 		{247E4D31-3CA1-4544-8500-CD9EB837F523}.Release|x86.Build.0 = Release|Any CPU
+		{C42CFF25-8B5F-40A5-921C-0D94828107EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C42CFF25-8B5F-40A5-921C-0D94828107EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C42CFF25-8B5F-40A5-921C-0D94828107EA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C42CFF25-8B5F-40A5-921C-0D94828107EA}.Debug|x64.Build.0 = Debug|Any CPU
+		{C42CFF25-8B5F-40A5-921C-0D94828107EA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C42CFF25-8B5F-40A5-921C-0D94828107EA}.Debug|x86.Build.0 = Debug|Any CPU
+		{C42CFF25-8B5F-40A5-921C-0D94828107EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C42CFF25-8B5F-40A5-921C-0D94828107EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C42CFF25-8B5F-40A5-921C-0D94828107EA}.Release|x64.ActiveCfg = Release|Any CPU
+		{C42CFF25-8B5F-40A5-921C-0D94828107EA}.Release|x64.Build.0 = Release|Any CPU
+		{C42CFF25-8B5F-40A5-921C-0D94828107EA}.Release|x86.ActiveCfg = Release|Any CPU
+		{C42CFF25-8B5F-40A5-921C-0D94828107EA}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -400,5 +416,6 @@ Global
 		{01DE4BB2-DFCA-4EA9-ACEF-F8FC26451C46} = {106DBD75-60D8-288E-21FB-A0DE1B945471}
 		{9FB8436E-5B9A-4C39-816B-D7CC1E9A4D8C} = {106DBD75-60D8-288E-21FB-A0DE1B945471}
 		{247E4D31-3CA1-4544-8500-CD9EB837F523} = {787F0AE7-F039-BD07-CD28-E4C8FD89F7AC}
+		{C42CFF25-8B5F-40A5-921C-0D94828107EA} = {CEEDB9FF-A151-87D7-8F55-BB3F3E7A5D12}
 	EndGlobalSection
 EndGlobal
