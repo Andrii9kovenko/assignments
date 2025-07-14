@@ -1,9 +1,7 @@
 ﻿// треба вгадати посимвольно зашифроване слово. Нехай слово вже буде відомо програмі. 
 // Користувач може вводити по одній літері та має обмежену кількість невірних спроб. 
 
-
 Console.Clear();
-
 
 string guessWord = "собака";
 guessWord = guessWord.ToLower();
@@ -12,7 +10,7 @@ char[] search = new char[guessWord.Length];
 for (int i = 0; i < search.Length; i++)
     search[i] = '*';
 //собака -6 
-int maxTries = guessWord.Length; 
+int maxTries = guessWord.Length;
 int wrongTries = 0;
 
 Console.WriteLine("Вітаємо! Спробуйте вгадати зашифроване слово!");
@@ -48,7 +46,7 @@ while (wrongTries < maxTries)
     if (found)
     {
         positions = positions.TrimEnd(',');
-        Console.WriteLine($" Така літера є у слові! Позиція літери: {positions}");
+        Console.WriteLine($" Така літера є у слові! Позиція: {positions}");
     }
     else
     {
