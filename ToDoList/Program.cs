@@ -5,9 +5,10 @@ string[] tasks = new string[maxTasks];
 bool[] isDone = new bool[maxTasks];
 int taskCount = 0;
 
-
-while (true)
+bool isRunning = true;
+while (isRunning)
 {
+
     Console.WriteLine("Додаток справ:");
     Console.WriteLine("");
     Console.WriteLine("1. Додати справу");
@@ -19,26 +20,32 @@ while (true)
 
     string inputList = Console.ReadLine();
 
-    switch (inputList)
+    if (inputList == "5")
     {
-        case "1":
-            AddTask();
-            break;
-        case "2":
-            DeleteTask();
-            break;
-        case "3":
-            CheckTaskAsDone();
-            break;
-        case "4":
-            ShowTasks();
-            break;
-        case "5":
-            Console.WriteLine("Роботу додатку завершено");
-            return;
-        default:
-            Console.WriteLine("Невідома команда.");
-            break;
+        Console.WriteLine("Роботу додатку завершено");
+        isRunning = false;
+    }
+
+    else
+    {
+        switch (inputList)
+        {
+            case "1":
+                AddTask();
+                break;
+            case "2":
+                DeleteTask();
+                break;
+            case "3":
+                CheckTaskAsDone();
+                break;
+            case "4":
+                ShowTasks();
+                break;
+            default:
+                Console.WriteLine("Невідома команда.");
+                break;
+        }
     }
 }
 
@@ -77,7 +84,7 @@ void ShowTasks()
     Console.WriteLine("\nСписок справ:");
     for (int i = 0; i < taskCount; i++)
     {
-        string status = isDone[i] ? "[+]" : "[ ]";
+        string status = isDone[i] ? "(+)" : "( )";
         Console.WriteLine($"{i + 1}. {status} {tasks[i]}");
     }
 }
