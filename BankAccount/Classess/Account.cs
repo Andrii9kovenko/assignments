@@ -2,12 +2,12 @@ using System;
 
 namespace BankAccount.Classess;
 
-public class Accounts
+public class Account
 {
     private string accountName;
     private double accountBalance;
 
-    public Accounts(string name, double startingAmount)
+    public Account(string name, double startingAmount)
     {
         accountName = name;
 
@@ -21,7 +21,7 @@ public class Accounts
         }
     }
 
-    public void Top_up(double amount)
+    public void TopUp(double amount)
     {
         if (amount > 0)
         {
